@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Siva weds Satya </string>
+    <string name="action_invite">Invitation</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_invitation">Invitation</string>
+    <string name="nav_item_venue">Venue</string>
+
+    <string name="nav_item_mapview">Map View</string>
+    <string name="nav_item_guest_list">Guest List</string>
+    <string name="nav_item_contact">Contact</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_invitation</item>
+        <item>@string/nav_item_venue</item>
+        <item>@string/nav_item_guest_list</item>
+        <item>@string/nav_item_contact</item>
+    </string-array>
+
+    <string name="title_venue">Venue</string>
+    <string name="title_invitation">Invitation</string>
+    <string name="title_home">Home</string>
+    <string name="title_guestlist">Guest List</string>
+    <string name="title_contact">Contact</string>
+
+</resources>

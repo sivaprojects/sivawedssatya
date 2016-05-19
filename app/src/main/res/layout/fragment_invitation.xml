@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7700ff"
+    android:orientation="vertical"
+    tools:context="info.androidhive.materialdesign.activity.FriendsFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="You are cordially invited to celebrate the wedding of"
+            android:textColor="#ff00ea"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/siva"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="Siva"
+            android:textStyle="bold"
+            android:textColor="#ff00ea"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="6dp"
+            android:gravity="center_horizontal"
+            android:text="&amp;"
+            android:textColor="#ff00ea"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/satya"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="6dp"
+            android:gravity="center_horizontal"
+            android:text="Satya"
+            android:textStyle="bold"
+            android:textColor="#ff00ea"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="On"
+            android:textColor="#ff00ea"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="22-04-2016"
+            android:textColor="#ff00ea"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="6dp"
+            android:gravity="center_horizontal"
+            android:text="at 11:32 PM"
+            android:textColor="#ff00ea"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="6dp"
+            android:gravity="center_horizontal"
+            android:text="Municipal Kalyanamandapam,"
+            android:textColor="#ff00ea"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="6dp"
+            android:gravity="center_horizontal"
+            android:text="Pithapuram"
+            android:textColor="#ff00ea"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+</LinearLayout>
